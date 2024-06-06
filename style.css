@@ -1,0 +1,138 @@
+body{
+    min-height: 100vh; /*minimal tinggi*/
+    display: flex;
+    flex-direction: column; /* Menyusun konten dalam satu kolom */
+    justify-content: space-between; /* Mengatur ruang di antara konten */
+    margin: 0; /* Hapus margin default pada body */
+}
+.navbar{
+    background: linear-gradient(#3498db,#ccc); /*warna linier untuk navbar*/
+    color: #fff; /*warna text*/
+    padding: 20px;
+    text-align: center; /*content akan posisi tengah*/
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    padding: 10px;
+    border: none; /*menghilangkan garis tepi pada button*/
+    cursor: pointer;
+    color: black;
+}
+
+button:hover{
+    background-color: white;
+}
+
+/* Gaya untuk tabel */
+.tabel {
+    width: 90%; /* Lebar tabel */
+    margin: 0 auto; /* Membuat tabel menjadi tengah */
+    border-collapse: collapse;
+}
+
+.tabel th, .tabel td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.tabel th {
+    background-color: #1da5ff;
+    color: white;
+}
+
+.tabel tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Gaya untuk container */
+.container {
+    text-align: center;
+    padding-top: 20px;
+    flex: 1;
+}
+
+.container h2 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Gaya untuk form input */
+.input {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Gaya untuk form input field */
+.input table {
+    margin: 0 auto;
+}
+
+/* Gaya untuk form input field label */
+.input td:first-child {
+    text-align: right;
+    padding-right: 10px;
+    width: 150px; /* Mengatur lebar label */
+}
+
+/* Gaya untuk form input field input */
+.input td:last-child input {
+    width: 350px; /* Mengatur lebar input field */
+}
+
+/* Gaya untuk form input field submit button */
+.input td:last-child {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.input td:last-child input {
+    width: 600px; /* Mengatur lebar submit button */
+}
+
+/* Gaya untuk tabel */
+.tabel2 {
+    width: 90%; /* Lebar tabel */
+    margin: 0 auto; /* Membuat tabel menjadi tengah */
+    border-collapse: collapse;
+}
+
+.tabel2 th, .tabel td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.tabel2 th {
+    background-color: #f2f2f2;
+}
+
+.tabel2 tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.petunjuk {
+    max-width: fit-content;
+    margin: 5px 20px 0 75px;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.petunjuk h3{
+    font-weight: bold;
+    color: red;
+}
+
+.footer {
+    background-color: #1da5ff;
+    text-align: center;
+    color: white;
+    padding: 0;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
